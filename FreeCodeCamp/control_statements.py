@@ -1,13 +1,13 @@
 condition = True
 name = "Roger"
 
-if condition==True:
+if condition == True:
     print("Condition is True")
-elif name=="Roger":
+elif name == "Roger":
     print("Hello Roger")
-elif name=="Syd":
+elif name == "Syd":
     print("Hello Syd")
-elif name=="Flavio":
+elif name == "Flavio":
     print("Hello Flavio")
 else:
     print("Condition is False")
