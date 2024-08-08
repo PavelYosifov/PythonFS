@@ -1,0 +1,5 @@
+pages = int(input())
+pages_per_hour = int(input())
+num_days = int(input())
+total_hours = int((pages / pages_per_hour) / num_days)
+print(total_hours)

@@ -1,0 +1,7 @@
+pen_num = int(input())
+marker_num = int(input())
+bottle_num = int(input())
+discount = float(int(input()) / 100)
+total = (pen_num * 5.80) + (marker_num * 7.20) + (bottle_num * 1.20)
+sum_needed = total - (total * discount)
+print(sum_needed)
