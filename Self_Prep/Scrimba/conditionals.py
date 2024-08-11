@@ -24,8 +24,9 @@ def atm():
     else:
         while True:
             pin = getpass.getpass("Please enter your pin!\n")
-            if len(pin) == 0 and pin.isdigit():
+            if len(pin) == 4 and pin.isdigit():
                 print("Thank you for the information!")
+                break
             else:
                 print("Invalid pin! please try again")
                 tries += 1
@@ -84,3 +85,4 @@ def base_calc():
         else:
             print('Input error!')
 
+atm()
