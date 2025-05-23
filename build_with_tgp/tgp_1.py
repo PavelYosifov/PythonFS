@@ -1,3 +1,4 @@
+# General stuff- data types and printing in the console
 name = "Pavel"
 age = 26
 is_logged_in = True
